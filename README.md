@@ -1,7 +1,7 @@
-Indeed API Class
+Indeed API
 ===============================================================================
 
-PHP class to interact with the Indeed API.
+PHP interface to Indeed job search API.
 
 I will write better documentation when I can but look through the source for
 more detail.
@@ -37,3 +37,16 @@ Author(s)
 -------------------------------------------------------------------------------
 
 - Neil Sweeney <neil.sweeney@fubra.com>
+
+
+Releases
+-------------------------------------------------------------------------------
+
+### 1.0.0 (2013-11-21)
+
+Initial release
+
+* Query the job search API
+* Pass in default values
+* Choose between JSON or XML feed
+* Choose to return object or raw document
