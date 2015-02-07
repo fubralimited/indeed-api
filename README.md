@@ -15,7 +15,7 @@ Example of Usage
     require 'indeed-api.php';
 
     $indeedAPI = new IndeedAPI( 123455667 );
-    $indeedAPI->setDefaultParams( array(
+    $indeedAPI->setParams( array(
         'co' => 'gb'
     ) );
 
@@ -38,11 +38,16 @@ Author(s)
 
 - Neil Sweeney <neil.sweeney@fubra.com>
 
+Contributor(s)
+-------------------------------------------------------------------------------
+
+- AdamasAntares https://github.com/adamasantares
+
 
 Releases
 -------------------------------------------------------------------------------
 
-### 1.0.0 (2013-11-21)
+### 1.0.8 (2015-02-07)
 
 Initial release
 
@@ -50,3 +55,4 @@ Initial release
 * Pass in default values
 * Choose between JSON or XML feed
 * Choose to return object or raw document
+* Fix useragent and userip for CLI
