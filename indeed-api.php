@@ -113,13 +113,17 @@ class IndeedAPI {
 
         $this->lastQueryURL = $url;
 
-        if ($raw === false && $this->defaultParams['format'] === 'json') {
-            $results = file_get_contents($url);
-            $results = json_decode($results, true); // as array
-        } elseif ($raw === false && $this->defaultParams['format'] === 'xml') {
-            $results = simplexml_load_file($url);
-        } else {
-            $results = file_get_contents($url);
+        try {
+            if ($raw === false && $this->defaultParams['format'] === 'json') {
+                $results = file_get_contents($url);
+                $results = json_decode($results, true); // as array
+            } elseif ($raw === false && $this->defaultParams['format'] === 'xml') {
+                $results = simplexml_load_file($url);
+            } else {
+                $results = file_get_contents($url);
+            }
+        } catch(ErrorException $error) {
+            return $error;
         }
 
         return $results;
