@@ -51,6 +51,7 @@ class IndeedAPI {
         'limit' => '20',
         'highlight' => '0',
         'filter' => '1',
+        'fromage' => '1',
         'latlong' => '1',
         'co' => 'us',
         'chnl' => '',
