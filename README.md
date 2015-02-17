@@ -7,7 +7,7 @@ Description about queries format you can see there https://ads.indeed.com/jobrol
 
 But in original documentation you will not find this
 
-- Query for search specific job by him jobkey: ```q=jobkey:c798c4fed37edf59```
+- Query for search specific job by him jobkey: ```q=jobkey:c798c4fed37edf59``` or several keys ```q=jobkey:01ba63a5b2d8e3d4,jobkey:f89e5b8175aada87```
 - Query by title: ```q=title:Title+of+job``` will returns all jobs matched with this title
 - Query by one of any word from list: ```q=php+or+js+or+javascript+or+css```
 
