@@ -3,8 +3,13 @@ Indeed API
 
 PHP interface to Indeed job search API.
 
-I will write better documentation when I can but look through the source for
-more detail.
+Description about queries format you can see there https://ads.indeed.com/jobroll/xmlfeed
+
+But In original documentation you will not find this
+
+- Query for search specific job by him jobkey: ```q=jobkey:c798c4fed37edf59```
+- Query by title: ```q=title:Title+of+job``` will returns all jobs matched with this title
+- Query by one of any word from list: ```q=php+or+js+or+javascript+or+css```
 
 
 Example of Usage
