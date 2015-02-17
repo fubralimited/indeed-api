@@ -5,7 +5,7 @@ PHP interface to Indeed job search API.
 
 Description about queries format you can see there https://ads.indeed.com/jobroll/xmlfeed
 
-But In original documentation you will not find this
+But in original documentation you will not find this
 
 - Query for search specific job by him jobkey: ```q=jobkey:c798c4fed37edf59```
 - Query by title: ```q=title:Title+of+job``` will returns all jobs matched with this title
