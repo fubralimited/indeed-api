@@ -11,6 +11,7 @@ But in original documentation you will not find this
 - Query by title: ```q=title:Title+of+job``` will returns all jobs matched with this title
 - Query by one of any word from list: ```q=php+or+js+or+javascript+or+css```
 
+in this examples the char "+" is encoded "space" char.
 
 Example of Usage
 -------------------------------------------------------------------------------
